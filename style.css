@@ -10,11 +10,9 @@ body {
     justify-content: space-between;
 }
 
-.rightheaderlinks {
+.right {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0;
-    padding: 0;
 }
 
 .title {
@@ -22,7 +20,7 @@ body {
     font-weight: bold;
     color: #f9faf8;
     background-color: #1f2937;
-
+    flex-wrap: wrap;
 }
 
 .content, .container, .quotation, .footer {
@@ -52,8 +50,16 @@ body {
     color: #f9faf8;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
 ul {
+    display: flex;
     list-style-type: none;
+    padding: 0;
+    gap: 16px;
 }
 
 a {
