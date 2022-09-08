@@ -3,6 +3,8 @@ body {
     flex-direction: column;
 }
 
+/* Navbar */
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -10,41 +12,108 @@ body {
     justify-content: space-between;
 }
 
+h2 {
+    padding-left: 200px;
+}
+
 .right {
     font-size: 18px;
     color: #e5e7eb;
+    padding-right: 200px;
 }
+
+/* Hero */
 
 .title {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
     background-color: #1f2937;
+    padding-left: 200px;
+}
+
+.title h2 {
+    font-size: 24px;
+    opacity: 0.7;
+    font-weight: 100;
+    text-align: left;
+}
+
+.title img {
+    width: 450px;
+    height: 450px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 16px;
+}
+
+/* Content */
+
+.content {
+    align-items: center;
+}
+
+.content h2 {
+    justify-content: center;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.content, .container, .quotation, .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
 }
+
+/* Quotation */
+
+.quotation {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 0 200px;
+    padding-left: 1000px;
+}
+
+.quotation p {
+    font-size: 36px;
+}
+
+.quotation h3 {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+/* Sign-up Area */
 
 .calltoaction {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border-color: none;
 }
 
-.boxes {
-    border-radius: 20px;
-    background: white;
-    border-color: blue;
-}
-
-.quotation {
-    background-color: #e5e7eb;
-}
+/* Footer */
 
 .footer {
+    display: flex;
     background-color: #1f2937;
     display: flex;
     color: #f9faf8;
@@ -53,13 +122,6 @@ body {
 button {
     background-color: #3882f6;
     color: white;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    gap: 16px;
 }
 
 a {
